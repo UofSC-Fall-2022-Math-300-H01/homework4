@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package hw0
+package hw4
 
 @[defaultTarget]
-lean_lib Hw0
+lean_lib Hw4
