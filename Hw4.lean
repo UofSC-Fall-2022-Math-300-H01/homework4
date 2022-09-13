@@ -1,16 +1,16 @@
 variable (P Q: Prop)
 
 -- Problem 1 
-example : True := sorry 
+theorem problem1 : True := sorry 
 
 -- Problem 2 
-example (h : P) : Q → P := sorry 
+theorem problem2 (h : P) : Q → P := sorry 
 
 -- Problem 3 
-example : P → Q → P := sorry 
+theorem problem3 : P → Q → P := sorry 
 
 -- Problem 4 
-example (h : P ∧ Q) : P ∨ Q := sorry 
+theorem problem4 (h : P ∧ Q) : P ∨ Q := sorry 
 
 -- Problem 5 
-example : (P ↔ Q) → (P → Q) := sorry 
+theorem problem5 : (P ↔ Q) → (P → Q) := sorry 
