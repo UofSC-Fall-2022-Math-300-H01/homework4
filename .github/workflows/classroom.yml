@@ -13,8 +13,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: classroom autograding
-        uses: education/autograding@v1
       - name: Setup elan toolchain
         run: |
           curl -O --location https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh
@@ -29,3 +27,5 @@ jobs:
       - name: Initial lake build
         run: | 
           lake build 
+      - name: classroom autograding
+        uses: education/autograding@v1
