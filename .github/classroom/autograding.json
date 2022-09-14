@@ -3,7 +3,7 @@
       {
         "name": "Checking Problem 1",
         "setup": "",
-        "run": "lake env lean _Tests/Problem1",
+        "run": "lake env lean _Tests/Problem1.lean",
         "input" : "",
         "output": "[]",
         "comparison": "equal",
