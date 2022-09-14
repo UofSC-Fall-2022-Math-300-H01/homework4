@@ -1,10 +1,10 @@
 name: GitHub Classroom Workflow
 
-on: push
-  # push:
-  #   paths:
-  #   - 'Hw4.lean'
-  #
+on: 
+  push:
+    paths:
+    - 'Hw4.lean'
+
 jobs:
   build:
     name: Autograding
