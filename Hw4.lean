@@ -1,3 +1,4 @@
+
 variable (P Q: Prop)
 
 -- Problem 1 
