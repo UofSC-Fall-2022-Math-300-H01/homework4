@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Checking Problem 1",
+        "setup": "",
+        "run": "lake env lean _Tests/Problem1",
+        "input" : "",
+        "output": "[]",
+        "comparison": "equal",
+        "timeout": 10,
+        "points": 10
+      }
+    ]
+  }
