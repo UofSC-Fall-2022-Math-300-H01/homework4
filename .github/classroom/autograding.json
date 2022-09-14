@@ -8,7 +8,7 @@
         "output": "[]",
         "comparison": "equal",
         "timeout": 10,
-        "points": 10
+        "points": 1
       },
       {
         "name": "Checking Problem 2",
@@ -18,7 +18,7 @@
         "output": "[]",
         "comparison": "equal",
         "timeout": 10,
-        "points": 10
+        "points": 1
       },
       {
         "name": "Checking Problem 3",
@@ -28,7 +28,7 @@
         "output": "[]",
         "comparison": "equal",
         "timeout": 10,
-        "points": 10
+        "points": 1
       },
       {
         "name": "Checking Problem 1",
@@ -38,7 +38,7 @@
         "output": "[]",
         "comparison": "equal",
         "timeout": 10,
-        "points": 10
+        "points": 1
       },
       {
         "name": "Checking Problem 1",
@@ -48,7 +48,7 @@
         "output": "[]",
         "comparison": "equal",
         "timeout": 10,
-        "points": 10
+        "points": 1
       }
     ]
   }
