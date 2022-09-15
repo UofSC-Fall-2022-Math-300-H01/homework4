@@ -15,6 +15,8 @@ def collectAxiomsOf (constName : Name) : MetaM (List String) := do
   let a := s.axioms.toList.map toString
   return a
 
+#eval Name.mkSimple "hi"
+
 def myState (env : Environment) : Core.State := 
   ⟨env,default,default,default,default,default,default⟩ 
 def myContext (fileName : String) : Core.Context := 
@@ -34,7 +36,7 @@ def main : IO Unit := do
   let input ← IO.FS.readFile "Hw4.lean"
   let env ← Prod.fst <$> runFrontend input {} "" default 
   -- IO.println s!"{env.allImportedModuleNames}"
-  let (list,_,_) ← MetaM.toIO (collectAxiomsOf ``problem2) (myContext "Hw4.lean") (myState env) 
+  let (list,_,_) ← MetaM.toIO (collectAxiomsOf (Name.mkSimple "problem2")) (myContext "Hw4.lean") (myState env) 
   IO.println s!"{list}"
 
 #eval main 
