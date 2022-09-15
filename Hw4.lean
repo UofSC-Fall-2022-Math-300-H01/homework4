@@ -12,10 +12,10 @@ theorem problem1 : True := trivial
 theorem problem2 : P ∧ Q := ⟨ mine P, other Q ⟩ 
 
 -- Problem 3 
-theorem problem3 : P → Q → P := sorry 
+theorem problem3 : P → Q → P := sorry
 
 -- Problem 4 
-theorem problem4 (h : P ∧ Q) : P ∨ Q := sorry 
+theorem problem4 (h : P ∧ Q) : P ∨ Q := sorry
 
 -- Problem 5 
-theorem problem5 : (P ↔ Q) → (P → Q) := sorry 
+theorem problem5 : (P ↔ Q) → (P → Q) := sorry

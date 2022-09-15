@@ -11,4 +11,4 @@ def collectAxiomsOf (constName : Name) : MetaM (List String) := do
   let a := s.axioms.toList.map toString
   return a
 
-#eval collectAxiomsOf ``problem2
+#eval collectAxiomsOf ``problem1
