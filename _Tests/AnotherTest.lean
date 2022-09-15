@@ -30,10 +30,7 @@ def myContext (fileName : String) : Core.Context :=
 
 #check runFrontend 
 
-def main (args : List String) : IO Unit := do
-  let problem := match args with 
-    | [] => ""
-    | a::_ => a 
+def main : IO Unit := do
   let input ← IO.FS.readFile "Hw4.lean"
   let env ← Prod.fst <$> runFrontend input {} "" default 
   -- IO.println s!"{env.allImportedModuleNames}"
