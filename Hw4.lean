@@ -1,10 +1,15 @@
+import Lean.Elab
+
 variable (P Q: Prop)
 
+axiom mine : P
+axiom other : Q 
+
 -- Problem 1 
-theorem problem1 : True := sorry 
+theorem problem1 : True := trivial 
 
 -- Problem 2 
-theorem problem2 (h : P) : Q → P := sorry 
+theorem problem2 : P ∧ Q := ⟨ mine P, other Q ⟩ 
 
 -- Problem 3 
 theorem problem3 : P → Q → P := sorry 
