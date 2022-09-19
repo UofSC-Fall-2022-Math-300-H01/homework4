@@ -1,10 +1,10 @@
 variable (P Q: Prop)
 
 -- Problem 1 
-theorem problem1 : True := sorry 
+theorem problem1 : True := trivial 
 
 -- Problem 2 
-theorem problem2 (h : P) : Q → P := sorry
+theorem problem2 (h : P) : Q → P := fun (_:Q) => h 
 
 -- Problem 3 
 theorem problem3 : P → Q → P := sorry
