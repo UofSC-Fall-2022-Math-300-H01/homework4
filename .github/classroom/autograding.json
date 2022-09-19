@@ -31,9 +31,9 @@
         "points": 1
       },
       {
-        "name": "Checking Problem 1",
+        "name": "Checking Problem 4",
         "setup": "",
-        "run": "lake env lean _Tests/Problem3.lean",
+        "run": "lake env lean _Tests/Problem4.lean",
         "input" : "",
         "output": "[]",
         "comparison": "equal",
@@ -41,9 +41,9 @@
         "points": 1
       },
       {
-        "name": "Checking Problem 1",
+        "name": "Checking Problem 5",
         "setup": "",
-        "run": "lake env lean _Tests/Problem3.lean",
+        "run": "lake env lean _Tests/Problem5.lean",
         "input" : "",
         "output": "[]",
         "comparison": "equal",
