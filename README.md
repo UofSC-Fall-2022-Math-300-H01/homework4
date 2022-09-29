@@ -1,4 +1,4 @@
-## Homework 4: Due 2022.09.19 
+## Homework 4
 
 We continue thinking about proofs in propitional logic but 
 we start using a new tool to help us: [Lean](leanprover.github.io). 
